@@ -32,7 +32,7 @@ The dataset for each result condition can be downloaded by running the file in t
 
 
 ## Requirements
-* Python 3.6
+* Python >= 3.6
 * TensorFlow >= 1.7
 * Keras >= 2.1.5
 * Pytorch >= 1.7.0
