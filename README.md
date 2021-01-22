@@ -19,19 +19,19 @@ The dataset for each result condition can be downloaded by running the file in t
 ### Fragmenting  words  to  create  a  twist
 The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. 
 
-(Image)
+<img src="https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png" width="500" height="500">
 
 
 ### Homophones and Homographs
 Users can employ specific lexical features of homophones and homographs to make a Jujeop comment. After a user makes his/her first sentence with the original meanings of words, they employ other word meanings in the second sentence to compliment the K-pop stars while allowing other users to enjoy the fun.
 
-(Image)
+<img src="https://user-images.githubusercontent.com/18303573/105449623-17edce80-5cbc-11eb-964c-98fc43a70a88.png" width="500" height="500">
 
 
 ### Repetition
 This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars.
 
-(Image)
+<img src="https://user-images.githubusercontent.com/18303573/105449682-35229d00-5cbc-11eb-8829-82c576e5d5a7.png" width="500" height="500">
 
 
 ### Nonsense
