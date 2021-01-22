@@ -194,14 +194,8 @@ python koBERT.py
 </tbody>
 </table>
 
-  
-  
-  
-  
-  
-
-
-
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
