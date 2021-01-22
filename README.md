@@ -36,7 +36,7 @@ The dataset for each result condition can be downloaded by running the file in t
 * TensorFlow >= 1.7
 * Keras >= 2.1.5
 
-# If you want to implement KoBERT,
+### If you want to implement KoBERT
 * Pytorch >= 1.7.0
 * transformers==2.1.1
 * sentencepiece==0.1.85
