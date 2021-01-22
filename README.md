@@ -83,23 +83,23 @@ python kobert.py
   </tr>
   <tr>
     <td class="tg-0pky">non-Jujeop</td>
-    <td class="tg-0lax">88.03%</td>
-    <td class="tg-0lax">76.40%</td>
-    <td class="tg-0pky">81.80%</td>
+    <td class="tg-0lax">88.0%</td>
+    <td class="tg-0lax">76.4%</td>
+    <td class="tg-0pky">81.8%</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">BiLSTM</td>
     <td class="tg-0lax">Jujeop</td>
-    <td class="tg-0lax">40.09%</td>
-    <td class="tg-0lax">54.72%</td>
-    <td class="tg-0lax">46.28%</td>
-    <td class="tg-0lax" rowspan="2">76.65%</td>
+    <td class="tg-0lax">40.0%</td>
+    <td class="tg-0lax">54.7%</td>
+    <td class="tg-0lax">46.2%</td>
+    <td class="tg-0lax" rowspan="2">76.6%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-    <td class="tg-0lax">88.89%</td>
-    <td class="tg-0lax">81.59%</td>
-    <td class="tg-0lax">85.08%</td>
+    <td class="tg-0lax">88.8%</td>
+    <td class="tg-0lax">81.5%</td>
+    <td class="tg-0lax">85.0%</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">KoBERT</td>
@@ -135,30 +135,30 @@ python kobert.py
   <tr>
     <td class="tg-0lax" rowspan="2">CNN</td>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
-    <td class="tg-0lax">35.85%</td>
-    <td class="tg-0lax">31.60%</td>
-    <td class="tg-0lax">33.60%</td>
-    <td class="tg-0lax" rowspan="2">80.19%</td>
+    <td class="tg-0lax">35.8%</td>
+    <td class="tg-0lax">31.6%</td>
+    <td class="tg-0lax">33.6%</td>
+    <td class="tg-0lax" rowspan="2">80.1%</td>
   </tr>
   <tr>
     <td class="tg-0lax">non-Jujeop</td>
-    <td class="tg-0lax">87.39</td>
-    <td class="tg-0lax">89.34%</td>
-    <td class="tg-0lax">88.36%</td>
+    <td class="tg-0lax">87.3</td>
+    <td class="tg-0lax">89.3%</td>
+    <td class="tg-0lax">88.3%</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">BiLSTM</td>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
-    <td class="tg-0lax">31.04%</td>
-    <td class="tg-0lax">51.36%</td>
-    <td class="tg-0lax">38.70%</td>
-    <td class="tg-0lax" rowspan="2">74.20%</td>
+    <td class="tg-0lax">31.0%</td>
+    <td class="tg-0lax">51.3%</td>
+    <td class="tg-0lax">38.7%</td>
+    <td class="tg-0lax" rowspan="2">74.2%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-    <td class="tg-0lax">89.54%</td>
-    <td class="tg-0lax">78.50%</td>
-    <td class="tg-0lax">83.66%</td>
+    <td class="tg-0lax">89.5%</td>
+    <td class="tg-0lax">78.5%</td>
+    <td class="tg-0lax">83.6%</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">KoBERT</td>
