@@ -1,10 +1,3 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 # Jujeop
 
 Jujeop is  a  type  of  pun  and  a  unique  way for  fans  to  express  their  love  for  the  K-popstars  they  follow  using  Korean. 
@@ -26,7 +19,7 @@ The dataset for each result condition can be downloaded by running the file in t
 ### Fragmenting  words  to  create  a  twist
 The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. 
 
-<img src="https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png" width="500" height="500" class="center">
+<center><img src="https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png" width="500" height="500"></center>
 
 
 ### Homophones and Homographs
