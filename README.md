@@ -35,7 +35,14 @@ The dataset for each result condition can be downloaded by running the file in t
 * Python >= 3.6
 * TensorFlow >= 1.7
 * Keras >= 2.1.5
+
+# If you want to implement KoBERT,
 * Pytorch >= 1.7.0
+* transformers==2.1.1
+* sentencepiece==0.1.85
+* git+https://git@github.com/SKTBrain/KoBERT.git@master
+* gluonnlp
+* tqdm
 
 ## Clone
 ```
@@ -134,7 +141,7 @@ python kobert.py
 <tbody>
   <tr>
     <td class="tg-0lax" rowspan="2">CNN</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
     <td class="tg-0lax">35.8%</td>
     <td class="tg-0lax">31.6%</td>
     <td class="tg-0lax">33.6%</td>
@@ -148,7 +155,7 @@ python kobert.py
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">BiLSTM</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
     <td class="tg-0lax">31.0%</td>
     <td class="tg-0lax">51.3%</td>
     <td class="tg-0lax">38.7%</td>
@@ -162,18 +169,17 @@ python kobert.py
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">KoBERT</td>
-    <td class="tg-0lax">Jujeop</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
+    <td class="tg-0lax">47.4%</td>
+    <td class="tg-0lax">16.7%</td>
+    <td class="tg-0lax">24.7%</td>
+    <td class="tg-0lax" rowspan="2">83.9%</td>
   </tr>
   <tr>
-    <td class="tg-0lax">non-Jujeop</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
+    <td class="tg-0lax">86.0%</td>
+    <td class="tg-0lax">96.5%</td>
+    <td class="tg-0lax">91.0%</td>
   </tr>
 </tbody>
 </table>
