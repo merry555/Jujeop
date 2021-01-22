@@ -33,7 +33,7 @@ This is a type of repetition of thesame phrase. As presented in the following ex
 ### Nonsense
 The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. Representative examples are presented below:
 
-<img src="https://user-images.githubusercontent.com/18303573/105449717-44a1e600-5cbc-11eb-8b83-d6ab6cfe6c12.png" width="500" height="600">
+<img src="https://user-images.githubusercontent.com/18303573/105449717-44a1e600-5cbc-11eb-8b83-d6ab6cfe6c12.png" width="500" height="500">
 
 The dataset for each result condition can be downloaded by running the file in the dataset directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as not_jujeop.txt that also includes title, text, label, type. Additionally, we also provide a channel list file as channel.txt that includes youtube query.
 
