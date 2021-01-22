@@ -1,4 +1,4 @@
-# Jujeop HIHIHIHHIH
+# Jujeop
 
 Jujeop is  a  type  of  pun  and  a  unique  wayfor  fans  to  express  their  love  for  the  K-popstars  they  follow  using  Korean.  One  of  theunique  characteristics  ofJujeopis  its  use  ofexaggerated expressions to compliment K-pop stars, which contain or lead to humor. Basedon this characteristic, Jujeop can be separatedinto four distinct types, with their own lexical collocations: ***(1) Fragmenting words to createa twist, (2) Homophones and Homographs, (3) Repetition, and (4) Nonsense***. Thus, the currentstudy first defines the concept of Jujeop in Korean, manually labels 8.6K Jujeop comments and annotates the comments to one of the four Jujeop types. Using the annotated corpus, this study proposes two classifiers, which are based on deep neural networks, to investigate whether or not each comment is a Jujeop comment. We have made our dataset publicly available for future research of Jujeop expressions.
 
@@ -35,7 +35,14 @@ The dataset for each result condition can be downloaded by running the file in t
 * Python >= 3.6
 * TensorFlow >= 1.7
 * Keras >= 2.1.5
+
+### If you want to implement KoBERT
 * Pytorch >= 1.7.0
+* transformers==2.1.1
+* sentencepiece==0.1.85
+* git+https://git@github.com/SKTBrain/KoBERT.git@master
+* gluonnlp
+* tqdm
 
 ## Clone
 ```
@@ -104,16 +111,16 @@ python kobert.py
   <tr>
     <td class="tg-0lax" rowspan="2">KoBERT</td>
     <td class="tg-0lax">Jujeop</td>
-    <td class="tg-0lax">82.8%</td>
-    <td class="tg-0lax">94.3%</td>
-    <td class="tg-0lax">88.2%</td>
+    <td class="tg-0lax">45.9%</td>
+    <td class="tg-0lax">19.7%</td>
+    <td class="tg-0lax">27.7%</td>
     <td class="tg-0lax" rowspan="2">79.7%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-    <td class="tg-0lax">45.9%</td>
-    <td class="tg-0lax">19.7%</td>
-    <td class="tg-0lax">27.7%</td>
+     <td class="tg-0lax">82.8%</td>
+    <td class="tg-0lax">94.3%</td>
+    <td class="tg-0lax">88.2%</td>
   </tr>
 </tbody>
 </table>
@@ -134,7 +141,7 @@ python kobert.py
 <tbody>
   <tr>
     <td class="tg-0lax" rowspan="2">CNN</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
     <td class="tg-0lax">35.8%</td>
     <td class="tg-0lax">31.6%</td>
     <td class="tg-0lax">33.6%</td>
@@ -148,7 +155,7 @@ python kobert.py
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">BiLSTM</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
     <td class="tg-0lax">31.0%</td>
     <td class="tg-0lax">51.3%</td>
     <td class="tg-0lax">38.7%</td>
@@ -162,17 +169,17 @@ python kobert.py
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">KoBERT</td>
-    <td class="tg-0lax">Jujeop</td>
-    <td class="tg-0lax">86.0%</td>
-    <td class="tg-0lax">96.5%</td>
-    <td class="tg-0lax">91.0%</td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
+    <td class="tg-0lax">47.4%</td>
+    <td class="tg-0lax">16.7%</td>
+    <td class="tg-0lax">24.7%</td>
     <td class="tg-0lax" rowspan="2">83.9%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-     <td class="tg-0lax">47.4%</td>
-    <td class="tg-0lax">16.7%</td>
-    <td class="tg-0lax">24.7%</td>
+    <td class="tg-0lax">86.0%</td>
+    <td class="tg-0lax">96.5%</td>
+    <td class="tg-0lax">91.0%</td>
   </tr>
 </tbody>
 </table>
