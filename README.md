@@ -56,7 +56,7 @@ The comments in this type includethe K-pop stars within fictions. The majority o
 
 ## Clone
 ```
-git clone 
+git clone https://anonymous.4open.science/r/828f5b97-522f-4fc1-91ce-b176ce331a45/
 ```
 
 ## Experiment
