@@ -119,3 +119,61 @@ python kobert.py
 </table>
 
 ### Binary Classification Result (Jujeop - Nonsense vs non-Jujeop)
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">Classifier</th>
+    <th class="tg-0lax">Class</th>
+    <th class="tg-0lax">Precision</th>
+    <th class="tg-0lax">Recall</th>
+    <th class="tg-0lax">F1-score</th>
+    <th class="tg-0lax">Accuracy</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax" rowspan="2">CNN</td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
+    <td class="tg-0lax">35.85%</td>
+    <td class="tg-0lax">31.60%</td>
+    <td class="tg-0lax">33.60%</td>
+    <td class="tg-0lax" rowspan="2">80.19%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">non-Jujeop</td>
+    <td class="tg-0lax">87.39</td>
+    <td class="tg-0lax">89.34%</td>
+    <td class="tg-0lax">88.36%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2">BiLSTM</td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop</span></td>
+    <td class="tg-0lax">31.04%</td>
+    <td class="tg-0lax">51.36%</td>
+    <td class="tg-0lax">38.70%</td>
+    <td class="tg-0lax" rowspan="2">74.20%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
+    <td class="tg-0lax">89.54%</td>
+    <td class="tg-0lax">78.50%</td>
+    <td class="tg-0lax">83.66%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2">KoBERT</td>
+    <td class="tg-0lax">Jujeop</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">non-Jujeop</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+</tbody>
+</table>
