@@ -111,16 +111,16 @@ python kobert.py
   <tr>
     <td class="tg-0lax" rowspan="2">KoBERT</td>
     <td class="tg-0lax">Jujeop</td>
-    <td class="tg-0lax">82.8%</td>
-    <td class="tg-0lax">94.3%</td>
-    <td class="tg-0lax">88.2%</td>
+    <td class="tg-0lax">45.9%</td>
+    <td class="tg-0lax">19.7%</td>
+    <td class="tg-0lax">27.7%</td>
     <td class="tg-0lax" rowspan="2">79.7%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-    <td class="tg-0lax">45.9%</td>
-    <td class="tg-0lax">19.7%</td>
-    <td class="tg-0lax">27.7%</td>
+     <td class="tg-0lax">82.8%</td>
+    <td class="tg-0lax">94.3%</td>
+    <td class="tg-0lax">88.2%</td>
   </tr>
 </tbody>
 </table>
