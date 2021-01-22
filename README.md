@@ -12,6 +12,10 @@ Thus, the current study first defines the concept of Jujeop in Korean, manually 
 
 
 ## Jujeop Data Description
+
+The dataset for each result condition can be downloaded by running the file in the dataset directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as not_jujeop.txt that also includes title, text, label, type. Additionally, we also provide a channel list file as channel.txt that includes youtube query.
+
+
 ### Fragmenting  words  to  create  a  twist
 The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. 
 
@@ -35,7 +39,6 @@ The comments in this type includethe K-pop stars within fictions. The majority o
 
 <img src="https://user-images.githubusercontent.com/18303573/105449717-44a1e600-5cbc-11eb-8b83-d6ab6cfe6c12.png" width="500" height="500">
 
-The dataset for each result condition can be downloaded by running the file in the dataset directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as not_jujeop.txt that also includes title, text, label, type. Additionally, we also provide a channel list file as channel.txt that includes youtube query.
 
 
 ## Requirements
