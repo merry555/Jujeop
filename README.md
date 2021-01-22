@@ -1,6 +1,13 @@
 # Jujeop
 
-Jujeop is  a  type  of  pun  and  a  unique  wayfor  fans  to  express  their  love  for  the  K-popstars  they  follow  using  Korean.  One  of  theunique  characteristics  ofJujeopis  its  use  ofexaggerated expressions to compliment K-pop stars, which contain or lead to humor. Basedon this characteristic, Jujeop can be separatedinto four distinct types, with their own lexical collocations: ***(1) Fragmenting words to createa twist, (2) Homophones and Homographs, (3) Repetition, and (4) Nonsense***. Thus, the currentstudy first defines the concept of Jujeop in Korean, manually labels 8.6K Jujeop comments and annotates the comments to one of the four Jujeop types. Using the annotated corpus, this study proposes two classifiers, which are based on deep neural networks, to investigate whether or not each comment is a Jujeop comment. We have made our dataset publicly available for future research of Jujeop expressions.
+Jujeop is  a  type  of  pun  and  a  unique  way for  fans  to  express  their  love  for  the  K-popstars  they  follow  using  Korean. 
+
+One  of  the unique  characteristics  of Jujeop is  its  use  of exaggerated expressions to compliment K-pop stars, which contain or lead to humor. 
+
+Based on this characteristic, Jujeop can be separated into four distinct types, with their own lexical collocations: 
+***(1) Fragmenting words to createa twist, (2) Homophones and Homographs, (3) Repetition, and (4) Nonsense***. 
+
+Thus, the current study first defines the concept of Jujeop in Korean, manually labels 8.6K Jujeop comments and annotates the comments to one of the four Jujeop types. Using the annotated corpus, this study proposes two classifiers; CNN, BiLSTM to verify the definition of the Jujeop comments. We have made our dataset publicly available for future research of Jujeop expressions.
 
 
 ## Jujeop Data Description
