@@ -25,7 +25,7 @@ The comments in this type intentionally fragment aspecific word and extract/conc
 ### Homophones and Homographs
 Users can employ specific lexical features of homophones and homographs to make a Jujeop comment. After a user makes his/her first sentence with the original meanings of words, they employ other word meanings in the second sentence to compliment the K-pop stars while allowing other users to enjoy the fun.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/18303573/105449623-17edce80-5cbc-11eb-964c-98fc43a70a88.png" width="500" height="500" class="center"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png" width="500" height="500" class="center"></p>
 
 
 ### Repetition
