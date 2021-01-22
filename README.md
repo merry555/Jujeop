@@ -54,15 +54,15 @@ We provide deep neural network model to classify Jujeop.
 
 **BiLSTM**
 ```
-python bilstm.py
+python BiLSTM.py
 ```
 **CNN**
 ```
-python cnn.py
+python CNN.py
 ```
 **KoBERT**
 ```
-python kobert.py
+python koBERT.py
 ```
 
 ## Experiment Results
