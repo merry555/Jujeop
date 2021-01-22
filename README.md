@@ -76,10 +76,10 @@ python kobert.py
   <tr>
     <td class="tg-0pky" rowspan="2">CNN</td>
     <td class="tg-0pky">Jujeop</td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">31.98%</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">51.63%</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none">39.50%</span></td>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none">72.02%</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">31.9%</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">51.6%</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none">39.5%</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none">72.0%</span></td>
   </tr>
   <tr>
     <td class="tg-0pky">non-Jujeop</td>
