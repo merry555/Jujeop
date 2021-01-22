@@ -60,6 +60,7 @@ python kobert.py
 
 ## Experiment Results
 
+### Binary Classification Result (Jujeop vs non-Jujeop)
 <table class="tg">
 <thead>
   <tr>
@@ -116,3 +117,5 @@ python kobert.py
   </tr>
 </tbody>
 </table>
+
+### Binary Classification Result (Jujeop - Nonsense vs non-Jujeop)
