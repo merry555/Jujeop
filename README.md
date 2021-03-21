@@ -55,7 +55,7 @@ The comments in this type includethe K-pop stars within fictions. The majority o
 * tqdm
 
 ## Experiment
-We employed deep neural network model to classify Jujeop.
+We employed deep neural network model to classify Jujeop. Additionally, we employed clustering to check whether each type of the Jujeop comments has similar lingustic dependency relations.
 
 ## Experiment Results
 
@@ -116,6 +116,10 @@ We employed deep neural network model to classify Jujeop.
   </tr>
 </tbody>
 </table>
+
+### Clustering Result Between four types of Jujeop
+<img width="360" alt="clustering" src="https://user-images.githubusercontent.com/18303573/111910458-cb98f200-8aa4-11eb-9d9e-a43bb9794b66.png">
+
 
 &nbsp;
 &nbsp;
