@@ -1,4 +1,4 @@
-# Jujeop
+# Jujeop: Korean Puns for K-pop Stars on Social Media
 
 Jujeop is  a  type  of  pun  and  a  unique  way for  fans  to  express  their  love  for  the  K-popstars  they  follow  using  Korean. 
 
