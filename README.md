@@ -60,20 +60,7 @@ git clone https://anonymous.4open.science/r/828f5b97-522f-4fc1-91ce-b176ce331a45
 ```
 
 ## Experiment
-We provide deep neural network model to classify Jujeop.
-
-**BiLSTM**
-```
-python BiLSTM.py
-```
-**CNN**
-```
-python CNN.py
-```
-**KoBERT**
-```
-python koBERT.py
-```
+We employed deep neural network model to classify Jujeop.
 
 ## Experiment Results
 
@@ -93,103 +80,44 @@ python koBERT.py
   <tr>
     <td class="tg-0pky" rowspan="2">CNN</td>
     <td class="tg-0pky">Jujeop</td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">31.9%</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">51.6%</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none">39.5%</span></td>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none">72.0%</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">75.41%</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none">72.44%</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none">73.90%</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none">69.05%</span></td>
   </tr>
   <tr>
     <td class="tg-0pky">non-Jujeop</td>
-    <td class="tg-0lax">88.0%</td>
-    <td class="tg-0lax">76.4%</td>
-    <td class="tg-0pky">81.8%</td>
+    <td class="tg-0lax">60.23.0%</td>
+    <td class="tg-0lax">63.86%</td>
+    <td class="tg-0pky">61.99%</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">BiLSTM</td>
     <td class="tg-0lax">Jujeop</td>
-    <td class="tg-0lax">40.0%</td>
-    <td class="tg-0lax">54.7%</td>
-    <td class="tg-0lax">46.2%</td>
-    <td class="tg-0lax" rowspan="2">76.6%</td>
+    <td class="tg-0lax">77.59%</td>
+    <td class="tg-0lax">72.70%</td>
+    <td class="tg-0lax">75.07%</td>
+    <td class="tg-0lax" rowspan="2">70.79%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-    <td class="tg-0lax">88.8%</td>
-    <td class="tg-0lax">81.5%</td>
-    <td class="tg-0lax">85.0%</td>
+    <td class="tg-0lax">61.90%</td>
+    <td class="tg-0lax">67.87%</td>
+    <td class="tg-0lax">64.75%</td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2">KoBERT</td>
     <td class="tg-0lax">Jujeop</td>
-    <td class="tg-0lax">45.9%</td>
-    <td class="tg-0lax">19.7%</td>
-    <td class="tg-0lax">27.7%</td>
-    <td class="tg-0lax" rowspan="2">79.7%</td>
+    <td class="tg-0lax">80.45%</td>
+    <td class="tg-0lax">74.54%</td>
+    <td class="tg-0lax">77.38%</td>
+    <td class="tg-0lax" rowspan="2">73.65%</td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-     <td class="tg-0lax">82.8%</td>
-    <td class="tg-0lax">94.3%</td>
-    <td class="tg-0lax">88.2%</td>
-  </tr>
-</tbody>
-</table>
-
-### Binary Classification Result (Jujeop - Nonsense vs non-Jujeop)
-
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax">Classifier</th>
-    <th class="tg-0lax">Class</th>
-    <th class="tg-0lax">Precision</th>
-    <th class="tg-0lax">Recall</th>
-    <th class="tg-0lax">F1-score</th>
-    <th class="tg-0lax">Accuracy</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax" rowspan="2">CNN</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
-    <td class="tg-0lax">35.8%</td>
-    <td class="tg-0lax">31.6%</td>
-    <td class="tg-0lax">33.6%</td>
-    <td class="tg-0lax" rowspan="2">80.1%</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">non-Jujeop</td>
-    <td class="tg-0lax">87.3</td>
-    <td class="tg-0lax">89.3%</td>
-    <td class="tg-0lax">88.3%</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax" rowspan="2">BiLSTM</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
-    <td class="tg-0lax">31.0%</td>
-    <td class="tg-0lax">51.3%</td>
-    <td class="tg-0lax">38.7%</td>
-    <td class="tg-0lax" rowspan="2">74.2%</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-    <td class="tg-0lax">89.5%</td>
-    <td class="tg-0lax">78.5%</td>
-    <td class="tg-0lax">83.6%</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax" rowspan="2">KoBERT</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">Jujeop-Nonsense</span></td>
-    <td class="tg-0lax">47.4%</td>
-    <td class="tg-0lax">16.7%</td>
-    <td class="tg-0lax">24.7%</td>
-    <td class="tg-0lax" rowspan="2">83.9%</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">non-Jujeop</span></td>
-    <td class="tg-0lax">86.0%</td>
-    <td class="tg-0lax">96.5%</td>
-    <td class="tg-0lax">91.0%</td>
+     <td class="tg-0lax">64.98%</td>
+    <td class="tg-0lax">72.29%</td>
+    <td class="tg-0lax">68.44%</td>
   </tr>
 </tbody>
 </table>
