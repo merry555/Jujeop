@@ -120,8 +120,6 @@ We employed deep neural network model to classify Jujeop. Additionally, we emplo
 ### Clustering Result Between four types of Jujeop
 <p align="center"><img width="360" alt="clustering" src="https://user-images.githubusercontent.com/18303573/111910458-cb98f200-8aa4-11eb-9d9e-a43bb9794b66.png"></p>
 
-# Acknowledgements
-Special thanks to Eun Been Choi and Jihwan Aum for their helpful comments. We would also like to thank '사회평론' for providing financial support with annotation.
 
 &nbsp;
 &nbsp;
