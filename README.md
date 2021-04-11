@@ -1,6 +1,6 @@
 # Jujeop: Korean Puns for K-pop Stars on Social Media
 
-#### SocialNLP 2021 @ NAACL DATA Paper 
+### <a href="https://sites.google.com/site/socialnlp2021/">SocialNLP 2021 @ NAACL DATA Paper</a>
 
 Jujeop is  a  type  of  pun  and  a  unique  way for  fans  to  express  their  love  for  the  K-popstars  they  follow  using  Korean. 
 
