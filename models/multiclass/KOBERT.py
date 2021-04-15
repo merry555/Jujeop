@@ -21,7 +21,7 @@ from transformers.optimization import WarmupLinearSchedule
 # In[17]:
 
 
-##GPU 사용 시
+##GPU 
 device = torch.device("cuda:1")
 
 
@@ -220,14 +220,12 @@ for e in range(num_epochs):
         print(valid_length)
         label = label.long().to(device)
         out = model(token_ids, valid_length, segment_ids)
-#         out = out[0]
         loss = loss_fn(out, label)
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_grad_norm)
         optimizer.step()
         scheduler.step()  # Update learning rate schedule
         train_acc += calc_accuracy(out, label)
-#         train_f1 += f1_score_func(out, label)
 
         if batch_id % log_interval == 0:
             print("epoch {} batch id {} loss {} train acc {}".format(e+1, batch_id+1, loss.data.cpu().numpy(), train_acc / (batch_id+1)))
@@ -240,7 +238,6 @@ for e in range(num_epochs):
         label = label.long().to(device)
         out = model(token_ids, valid_length, segment_ids)
         test_acc += calc_accuracy(out, label)
-#         test_f1 += f1_score_func(out, label)
     print("epoch {} test acc {}".format(e+1, test_acc / (batch_id+1)))
 
 
@@ -258,48 +255,21 @@ for batch_id, (token_ids, valid_length, segment_ids, label) in enumerate(tqdm_no
       segment_ids = segment_ids.long().to(device)
       valid_length= valid_length
       label = label.long().to(device)
-  # related = related.long().to(device)
-  # out1, out2 = model(token_ids, valid_length, segment_ids)
       out = model(token_ids, valid_length, segment_ids)
-  # _, related_index = torch.max(out1, 1)
-  # _, label_index = torch.max(out2, 1)
       max_val, max_indices = torch.max(out, 1)
 
       for idx in range(len(label)):
         sentiment_true.append(S_LABELS[int(label[idx])])
-    # relevant_true.append(R_LABELS[int(related[idx])])
         sentiment_pred.append(S_LABELS[int(max_indices[idx])])
-    # relevant_pred.append(R_LABELS[int(related_index[idx])])
 print(sentiment_true)
 print(sentiment_pred)
-# print(relevant_true)
-# print(relevant_pred)
 
 from sklearn.metrics import confusion_matrix, classification_report
 from collections import Counter
 
-
-
-print('da confusion matrix')
-print('Labels: [-1, 0, 1, 2] (2 is not labeled because irrelevant)')
+print('confusion matrix')
 print(confusion_matrix(sentiment_true, sentiment_pred, labels=[0,1,2,3]))
-print(classification_report(sentiment_true, sentiment_pred, digits=3))
-
-
-
-# print('da confusion matrix')
-# print(confusion_matrix(relevant_true, relevant_pred, labels=[0,1]))
-# print(classification_report(relevant_true, relevant_pred, digits=3))
-
-
-# In[38]:
-
-
 print(classification_report(sentiment_true, sentiment_pred, digits=4))
-
-
-# In[40]:
-
 
 from sklearn.metrics import f1_score
 print(f1_score(sentiment_true, sentiment_pred, labels=None, pos_label=1, average='macro'))
