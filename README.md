@@ -2,7 +2,7 @@
 
 ### <a href="https://sites.google.com/site/socialnlp2021/">SocialNLP 2021 @ NAACL DATA Paper</a>
 
-We provide the first definition of the Jujeop comments in South Korea and human-annotated 8.6K Jujeop corpus. Jujeop is  a  type  of  pun  and  a  unique  way for  fans  to  express  their  love  for  the  K-popstars  they  follow  using  Korean. One  of  the unique  characteristics  of Jujeop is  its  use  of exaggerated expressions to compliment K-pop stars, which contain or lead to humor. Based on this characteristic, Jujeop can be separated into four distinct types, with their own lexical collocations: 
+We provide the first definition of the Jujeop comments (주접 댓글) in South Korea and human-annotated 8.6K Jujeop corpus. Jujeop is  a  type  of  pun  and  a  unique  way for  fans  to  express  their  love  for  the  K-pop stars  they  follow  using  Korean. One  of  the unique  characteristics  of Jujeop is  its  use  of exaggerated expressions to compliment K-pop stars, which contain or lead to humor. Based on this characteristic, Jujeop can be separated into four distinct types, with their own lexical collocations: 
  
 ***(1) Fragmenting words to createa twist, (2) Homophones and Homographs, (3) Repetition, and (4) Nonsense***. 
 
