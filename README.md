@@ -1,4 +1,8 @@
 # Jujeop: Korean Puns for K-pop Stars on Social Media
+#### Author 
+<a href="https://sori424.github.io/">Soyoung Oh</a>
+<a href="https://sites.google.com/view/jisukim8873/home">Jisu Kim</a>
+<a href="https://sites.google.com/view/leepeel">Seunpeel Lee</a>
 
 ### <a href="https://sites.google.com/site/socialnlp2021/">SocialNLP 2021 @ NAACL DATA Paper</a>
 
@@ -42,7 +46,7 @@ The comments in this type includethe K-pop stars within fictions. The majority o
 <p align="center"><img src="https://user-images.githubusercontent.com/18303573/105449717-44a1e600-5cbc-11eb-8b83-d6ab6cfe6c12.png" width="500" height="500" class="center"></p>
 
 ## Experiment
-We employed deep neural network model to classify Jujeop. Additionally, we employed clustering to check whether each type of the Jujeop comments has similar lingustic dependency relations.
+We employed deep neural network models to classify Jujeop. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in models/multiclass folder. We're always welcome to get feedback for improving model performance! 😊
 
 ### Requirements
 * Python >= 3.6
