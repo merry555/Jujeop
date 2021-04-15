@@ -1,7 +1,9 @@
 # Jujeop: Korean Puns for K-pop Stars on Social Media
 #### Author 
 <a href="https://sori424.github.io/">Soyoung Oh</a>
+
 <a href="https://sites.google.com/view/jisukim8873/home">Jisu Kim</a>
+
 <a href="https://sites.google.com/view/leepeel">Seunpeel Lee</a>
 
 ### <a href="https://sites.google.com/site/socialnlp2021/">SocialNLP 2021 @ NAACL DATA Paper</a>
