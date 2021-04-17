@@ -51,7 +51,7 @@ We employed deep neural network models to classify Jujeop. Additionally, we cond
 * tqdm
 
 ## Contributors 
-<a href="https://sori424.github.io/">Soyoung Oh*</a> 🥰 <a href="https://sites.google.com/view/jisukim8873/home">Jisu Kim*</a> 😸 <a href="https://sites.google.com/view/leepeel">Seunpeel Lee*</a> 👓
+<a href="https://sori424.github.io/">Soyoung Oh*</a> 🥰 <a href="https://sites.google.com/view/jisukim8873/home">Jisu Kim*</a> 😸 <a href="https://sites.google.com/view/leepeel">Seunpeel Lee*</a> 👓 Professor <a href="http://eunilpark.com"> Eunil Park :dxp: </a> 
 
 *: Equal Contribution
 
