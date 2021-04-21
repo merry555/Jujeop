@@ -8,7 +8,7 @@ We provide the first definition of the Jujeop comments (주접 댓글) in South 
 
 ## Jujeop Data Description
 
-The dataset for each result condition can be downloaded by running the file in the ``dataset`` directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as ``not_jujeop.txt`` that also includes title, text, label, type. Additionally, we also provide a video channel list file as ``channel.txt`` that includes youtube video query. We uploaded the Youtube crawler ``crawler.py``, we implemented to collect video title, comments, user name, number of likes. 
+The dataset for each result condition can be downloaded by running the file in the ``dataset`` directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as ``not_jujeop.txt`` that also includes title, text, label, type. Additionally, we also provide a video channel list file as ``channel.txt`` that includes youtube video query. We uploaded the Youtube crawler ``crawler.py``, we implemented to collect video title, comments, user name, and number of likes. 
 
 | <img src="https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png" alt="" width="400px" height="400px"/> | <img src="https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png" alt="" width="400px" height="400px"/> |
 |:--:|:--:| 
