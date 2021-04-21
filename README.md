@@ -21,7 +21,9 @@ The dataset for each result condition can be downloaded by running the file in t
 | This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars. | The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. 
 
 ## Experiment
-We employed deep neural network models to classify Jujeop for verification of the annotated corpus quality. Within the ``models/binary`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in ``models/multiclass`` folder. We're always welcome to get feedback for improving model performance! 😊
+We employed deep neural network models to classify Jujeop for verification of the annotated corpus quality. 
+
+Within the ``models/binary`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in ``models/multiclass`` folder. We're always welcome to get feedback for improving model performance! 😊
 
 ### Requirements
 * Python >= 3.6
