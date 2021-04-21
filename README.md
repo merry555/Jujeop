@@ -8,7 +8,7 @@ We provide the first definition of the Jujeop comments (주접 댓글) in South 
 
 ## Jujeop Data Description
 
-The dataset for each result condition can be downloaded by running the file in the ``dataset`` directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as ``not_jujeop.txt`` that also includes title, text, label, type. Additionally, we also provide a channel list file as ``channel.txt`` that includes youtube query.
+The dataset for each result condition can be downloaded by running the file in the ``dataset`` directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as ``not_jujeop.txt`` that also includes title, text, label, type. Additionally, we also provide a video channel list file as ``channel.txt`` that includes youtube video query. We uploaded the Youtube crawler ``crawler.py``, we implemented to collect video title, comments, user name, number of likes. 
 
 | <img src="https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png" alt="" width="400px" height="400px"/> | <img src="https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png" alt="" width="400px" height="400px"/> |
 |:--:|:--:| 
@@ -21,7 +21,7 @@ The dataset for each result condition can be downloaded by running the file in t
 | This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars. | The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. 
 
 ## Experiment
-We employed deep neural network models to classify Jujeop for verification of the annotated corpus quality. Within the ``models`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in ``models/multiclass`` folder. We're always welcome to get feedback for improving model performance! 😊
+We employed deep neural network models to classify Jujeop for verification of the annotated corpus quality. Within the ``models/binary`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in ``models/multiclass`` folder. We're always welcome to get feedback for improving model performance! 😊
 
 ### Requirements
 * Python >= 3.6
@@ -30,8 +30,10 @@ We employed deep neural network models to classify Jujeop for verification of th
 
 ### If you want to implement KoBERT
 * Pytorch >= 1.7.0
-* transformers==2.1.1
+* transformers >= 3.5.0
 * sentencepiece==0.1.85
+* MXNet >= 1.4.0
+* onnxruntime >= 0.3.0
 * git+https://git@github.com/SKTBrain/KoBERT.git@master
 * gluonnlp
 * tqdm
