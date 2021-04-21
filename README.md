@@ -15,7 +15,7 @@ The dataset for each result condition can be downloaded by running the file in t
 | *Fragmenting  words  to  create  a  twist* | *Homophones and Homographs* |
 | The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. | Users can employ specific lexical features of homophones and homographs to make a Jujeop comment. After a user makes his/her first sentence with the original meanings of words, they employ other word meanings in the second sentence to compliment the K-pop stars while allowing other users to enjoy the fun. |
 
-| ![type3_edit](https://user-images.githubusercontent.com/18303573/115512281-c7870c80-a2bc-11eb-9819-d2ca98dd7ab8.png) | ![type4_edit](https://user-images.githubusercontent.com/18303573/115512354-dc63a000-a2bc-11eb-9659-df64f46409ca.png) | 
+| <img src="https://user-images.githubusercontent.com/18303573/115512281-c7870c80-a2bc-11eb-9819-d2ca98dd7ab8.png" alt="" width="400px" height="400px"/> | <img src="https://user-images.githubusercontent.com/18303573/115512354-dc63a000-a2bc-11eb-9659-df64f46409ca.png" alt="" width="400px" height="400px"/> | 
 |:--:|:--:| 
 | *Repetition* | *Nonsense* |
 | This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars. | The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. 
