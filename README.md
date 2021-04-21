@@ -8,9 +8,9 @@ We provide the first definition of the Jujeop comments (주접 댓글) in South 
 
 ## Jujeop Data Description
 
-The dataset for each result condition can be downloaded by running the file in the dataset directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as not_jujeop.txt that also includes title, text, label, type. Additionally, we also provide a channel list file as channel.txt that includes youtube query.
+The dataset for each result condition can be downloaded by running the file in the dataset directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as ``not_jujeop.txt`` that also includes title, text, label, type. Additionally, we also provide a channel list file as ``channel.txt`` that includes youtube query.
 
-| ![type-1.png](https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png) | ![type-2.jpg](https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png) | 
+| ![type-1.png](https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png){:height="36px" width="36px"} | ![type-2.jpg](https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png){:height="36px" width="36px"} | 
 |:--:|:--:| 
 | *Fragmenting  words  to  create  a  twist* | *Homophones and Homographs* |
 | The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. | Users can employ specific lexical features of homophones and homographs to make a Jujeop comment. After a user makes his/her first sentence with the original meanings of words, they employ other word meanings in the second sentence to compliment the K-pop stars while allowing other users to enjoy the fun. |
@@ -21,7 +21,7 @@ The dataset for each result condition can be downloaded by running the file in t
 | This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars. | The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. 
 
 ## Experiment
-We employed deep neural network models to classify Jujeop. Within the ``models`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in models/multiclass folder. We're always welcome to get feedback for improving model performance! 😊
+We employed deep neural network models to classify Jujeop. Within the ``models`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in ``models/multiclass`` folder. We're always welcome to get feedback for improving model performance! 😊
 
 ### Requirements
 * Python >= 3.6
