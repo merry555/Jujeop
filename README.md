@@ -41,11 +41,12 @@ Within the ``models/binary`` folder we uploaded classification models to binariz
 * tqdm
 
 ## Contributors 
-<a href="https://sori424.github.io/">Soyoung Oh*</a> 🥰 <a href="https://sites.google.com/view/jisukim8873/home">Jisu Kim*</a> 😸 <a href="https://sites.google.com/view/leepeel">Seunpeel Lee*</a> 👓 
+<a href="https://sori424.github.io/">Soyoung Oh*</a> 🥰 <a href="https://sites.google.com/view/jisukim8873/home">Jisu Kim*</a> 😸 
 
-<a href="http://eunilpark.com"> Eunil Park** :sunglasses: </a> 
+<a href="https://sites.google.com/view/leepeel">Seunpeel Lee*</a> 👓 <a href="http://eunilpark.com"> Eunil Park** :sunglasses: </a> 
 
 *: Equal Contribution
+
 **: Corresponding Author
 
 ## References
