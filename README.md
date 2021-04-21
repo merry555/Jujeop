@@ -18,8 +18,7 @@ The dataset for each result condition can be downloaded by running the file in t
 | ![type-3.png](https://user-images.githubusercontent.com/18303573/105449682-35229d00-5cbc-11eb-8829-82c576e5d5a7.png) | ![type-4.jpg](https://user-images.githubusercontent.com/18303573/105449717-44a1e600-5cbc-11eb-8b83-d6ab6cfe6c12.png) | 
 |:--:|:--:| 
 | *Repetition* | *Nonsense* |
-| This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars.
- | The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. Representative examples are presented below: |
+| This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars. | The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. 
 
 ## Experiment
 We employed deep neural network models to classify Jujeop. Within the ``models`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in models/multiclass folder. We're always welcome to get feedback for improving model performance! 😊
