@@ -6,41 +6,23 @@ We provide the first definition of the Jujeop comments (주접 댓글) in South 
  
 ***(1) Fragmenting words to createa twist, (2) Homophones and Homographs, (3) Repetition, and (4) Nonsense***. 
 
-
-| ![type-1.png](https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png) | ![type-2.jpg](https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png) | 
-|:--:|:--:| 
-| *Fragmenting  words  to  create  a  twist* | *Homophones and Homographs* |
-
 ## Jujeop Data Description
 
 The dataset for each result condition can be downloaded by running the file in the dataset directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as not_jujeop.txt that also includes title, text, label, type. Additionally, we also provide a channel list file as channel.txt that includes youtube query.
 
+| ![type-1.png](https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png) | ![type-2.jpg](https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png) | 
+|:--:|:--:| 
+| *Fragmenting  words  to  create  a  twist* | *Homophones and Homographs* |
+| The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. | Users can employ specific lexical features of homophones and homographs to make a Jujeop comment. After a user makes his/her first sentence with the original meanings of words, they employ other word meanings in the second sentence to compliment the K-pop stars while allowing other users to enjoy the fun. |
 
-### Fragmenting  words  to  create  a  twist
-The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. 
-
-<p align="center"><img src="https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png" width="500" height="500"></p>
-
-
-### Homophones and Homographs
-Users can employ specific lexical features of homophones and homographs to make a Jujeop comment. After a user makes his/her first sentence with the original meanings of words, they employ other word meanings in the second sentence to compliment the K-pop stars while allowing other users to enjoy the fun.
-
-<p align="center"><img src="https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png" width="500" height="500" class="center"></p>
-
-
-### Repetition
-This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars.
-
-<p align="center"><img src="https://user-images.githubusercontent.com/18303573/105449682-35229d00-5cbc-11eb-8829-82c576e5d5a7.png" width="500" height="500" class="center"></p>
-
-
-### Nonsense
-The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. Representative examples are presented below:
-
-<p align="center"><img src="https://user-images.githubusercontent.com/18303573/105449717-44a1e600-5cbc-11eb-8b83-d6ab6cfe6c12.png" width="500" height="500" class="center"></p>
+| ![type-3.png](https://user-images.githubusercontent.com/18303573/105449682-35229d00-5cbc-11eb-8829-82c576e5d5a7.png) | ![type-4.jpg](https://user-images.githubusercontent.com/18303573/105449717-44a1e600-5cbc-11eb-8b83-d6ab6cfe6c12.png) | 
+|:--:|:--:| 
+| *Repetition* | *Nonsense* |
+| This is a type of repetition of thesame phrase. As presented in the following example, the comments in this type employ repetition to emphasize the complimentary meanings on the K-pop stars.
+ | The comments in this type includethe K-pop stars within fictions. The majority of such comments flatter the stars by using exaggerated and almost nonsensical, over the top expressions. Representative examples are presented below: |
 
 ## Experiment
-We employed deep neural network models to classify Jujeop. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in models/multiclass folder. We're always welcome to get feedback for improving model performance! 😊
+We employed deep neural network models to classify Jujeop. Within the ``models`` folder we uploaded classification models to binarize comments into Jujeop and non-Jujeop types. Additionally, we conducted multi-class classification for each Jujeop type which uploaded in models/multiclass folder. We're always welcome to get feedback for improving model performance! 😊
 
 ### Requirements
 * Python >= 3.6
