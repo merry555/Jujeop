@@ -7,7 +7,7 @@ We provide the first definition of the Jujeop comments (주접 댓글) in South 
 ***(1) Fragmenting words to createa twist, (2) Homophones and Homographs, (3) Repetition, and (4) Nonsense***. 
 
 
-| ![space-1.jpg](http://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg) | ![space-1.jpg](http://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg) | 
+| ![type-1.png](https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png) | ![type-2.jpg](https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png) | 
 |:--:|:--:| 
 | *Fragmenting  words  to  create  a  twist* | *Homophones and Homographs* |
 
