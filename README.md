@@ -10,7 +10,7 @@ We provide the first definition of the Jujeop comments (주접 댓글) in South 
 
 The dataset for each result condition can be downloaded by running the file in the ``dataset`` directory. All the Jujeop file consist of .txt file type that include title, text, label and	type. Not Jujeop data file is provided as ``not_jujeop.txt`` that also includes title, text, label, type. Additionally, we also provide a channel list file as ``channel.txt`` that includes youtube query.
 
-| ![type1_edit](https://user-images.githubusercontent.com/18303573/115512187-a8887a80-a2bc-11eb-9a29-707485d470a2.png) | ![type2_edit](https://user-images.githubusercontent.com/18303573/115512701-382e2900-a2bd-11eb-8f88-53890d90bef0.png) | 
+| <img src="https://user-images.githubusercontent.com/18303573/105449577-0278a480-5cbc-11eb-9788-d96a54040703.png" alt="" style="width: 200px; height:200px"/> | <img src="https://user-images.githubusercontent.com/18303573/105453743-07415680-5cc4-11eb-81f9-9b06ad066e0f.png" alt="" style="width: 200px height:200px"/> |
 |:--:|:--:| 
 | *Fragmenting  words  to  create  a  twist* | *Homophones and Homographs* |
 | The comments in this type intentionally fragment aspecific word and extract/concentrate a single character from the word to disguise the word’s full meaning (e.g., ‘pretty’ to ‘t’), in order to create a twist in the sentence meaning. The examples are attached as below. | Users can employ specific lexical features of homophones and homographs to make a Jujeop comment. After a user makes his/her first sentence with the original meanings of words, they employ other word meanings in the second sentence to compliment the K-pop stars while allowing other users to enjoy the fun. |
