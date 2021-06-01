@@ -49,7 +49,7 @@ Within the ``models/binary`` folder we uploaded classification models to binariz
 
 **: Corresponding Author
 
-## References
+## Reference
 
 ```
 @inproceedings{oh2021jujeop,
