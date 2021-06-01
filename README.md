@@ -51,6 +51,17 @@ Within the ``models/binary`` folder we uploaded classification models to binariz
 
 ## References
 
+```
+@inproceedings{oh2021jujeop,
+  title={Jujeop: Korean Puns for K-pop Stars on Social Media},
+  author={Oh, Soyoung and Kim, Jisu and Lee, Seungpeel and Park, Eunil},
+  booktitle={Proceedings of the Ninth International Workshop on Natural Language Processing for Social Media},
+  pages={170--177},
+  year={2021}
+}
+```
+
+
 
 <!---
 ## Experiment Results
